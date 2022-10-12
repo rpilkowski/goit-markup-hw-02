@@ -2,6 +2,9 @@
 	--back-color: #ffffff;
 	--accent-color: #2196f3;
 	--text-color: #212121;
+	--second-text-color: #757575;
+	--mainsection-bcg: #2f303a;
+	--team-bcg-color: #f5f4fa;
 }
 
 body {
@@ -10,15 +13,27 @@ body {
 	background-color: var(--back-color);
 	color: var(--text-color);
 }
+.list {
+	list-style: none;
+}
+.main-bcg {
+	background-color: var(--mainsection-bcg);
+}
+
+.titel-index {
+	color: white;
+	font-size: 44px;
+	font-weight: 900;
+	letter-spacing: 0.06rem;
+	text-align: center;
+}
 .logo {
 	font-family: "Raleway", sans-serif;
 	font-weight: 700;
 	text-decoration: none;
 	font-size: 26px;
 }
-ul {
-	list-style-type: none;
-}
+
 .logo-color-blue {
 	color: #2196f3;
 }
@@ -28,24 +43,19 @@ ul {
 .logo-color-black {
 	color: black;
 }
-.footer-color {
-	background-color: #2f303a;
-	width: 1600px;
-	height: 252px;
-}
-.adr-color1 {
-	color: white;
+
+.adr {
 	font-size: 14px;
 	font-style: normal;
 	line-height: 1.7;
 	letter-spacing: 0.03em;
+}
+
+.adr-color1 {
+	color: white;
 }
 .adr-color {
 	color: rgba(255, 255, 255, 60%);
-	font-size: 14px;
-	font-style: normal;
-	line-height: 1.7;
-	letter-spacing: 0.03em;
 }
 
 .no-deco {
@@ -58,19 +68,33 @@ ul {
 	line-height: 16p1.14;
 	letter-spacing: 0.02em;
 }
- {
-	color: #2196f3;
+
+.butt-index {
+	background-color: #2196f3;
+	color: white;
+	width: 117px;
+	height: 30px;
+	letter-spacing: 0.06rem;
+	border: 0;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	cursor: pointer;
 }
-button {
+.butt-port {
+	color: #212121;
+	background-color: #f5f4fa;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	cursor: pointer;
+	border-radius: 4px;
+	border: 0;
+	width: 93px;
+	height: 38px;
 }
-button:hover {
+.butt-port:hover {
 	color: white;
-	background-color: #2196f3;
+	background-color: var(--accent-color);
 }
 .contact {
 	color: #757575;
@@ -86,6 +110,22 @@ button:hover {
 .navmenu:hover {
 	color: var(--accent-color);
 }
+.features-title {
+	font-size: 14px;
+	font-weight: 700;
+	color: var(--text-color);
+}
+.features-text {
+	font-size: 14px;
+	color: var(--second-text-color);
+	line-height: 1.71;
+}
+.section-titel {
+	font-size: 36px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 1.17;
+}
 .list-titel {
 	font-weight: 700;
 	font-size: 18px;
@@ -96,5 +136,24 @@ button:hover {
 .list-text {
 	font-size: 16px;
 	line-height: 1.87;
-	color: #757575;
+	color: var(--second-text-color);
 }
+
+/* ------Team index------ */
+.team-worker {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.19;
+	text-align: center;
+	color: var(--text-color);
+}
+.team-position {
+	font: size 16px;
+	line-height: 1.19;
+	text-align: center;
+	color: var(--second-text-color);
+}
+.team-bcg {
+	background-color: var(--team-bcg-color);
+}
+/* ------------ */
