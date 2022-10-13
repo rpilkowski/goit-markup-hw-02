@@ -13,20 +13,19 @@ body {
 	background-color: var(--back-color);
 	color: var(--text-color);
 }
-.list {
-	list-style: none;
-}
 .main-bcg {
 	background-color: var(--mainsection-bcg);
 }
-
-.titel-index {
-	color: white;
-	font-size: 44px;
-	font-weight: 900;
-	letter-spacing: 0.06rem;
-	text-align: center;
+/* ---------------Listy UL-------------------- */
+.list {
+	list-style: none;
 }
+/* ---------------Hiperlacza-------------------- */
+.no-deco {
+	text-decoration: none;
+}
+
+/* ---------------Logo------------------- */
 .logo {
 	font-family: "Raleway", sans-serif;
 	font-weight: 700;
@@ -43,7 +42,14 @@ body {
 .logo-color-black {
 	color: black;
 }
-
+/* ---------------Pasek nawigacji /stopka -------------------- */
+.navmenu {
+	color: #212121;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16p1.14;
+	letter-spacing: 0.02em;
+}
 .adr {
 	font-size: 14px;
 	font-style: normal;
@@ -57,25 +63,22 @@ body {
 .adr-color {
 	color: rgba(255, 255, 255, 60%);
 }
-
-.no-deco {
-	text-decoration: none;
-}
-.navmenu {
-	color: #212121;
+.contact {
+	color: #757575;
 	font-weight: 500;
 	font-size: 14px;
-	line-height: 16p1.14;
+	line-height: 1.14;
 	letter-spacing: 0.02em;
 }
 
+/* ---------------Przyciski-------------------- */
 .butt-index {
 	background-color: #2196f3;
 	color: white;
 	width: 117px;
 	height: 30px;
 	letter-spacing: 0.06rem;
-	border: 0;
+	border-radius: 4px;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	cursor: pointer;
 }
@@ -88,27 +91,34 @@ body {
 	letter-spacing: 0.02em;
 	cursor: pointer;
 	border-radius: 4px;
-	border: 0;
+
 	width: 93px;
 	height: 38px;
 }
-.butt-port:hover {
+.butt-port:hover,
+.butt-port:focus {
 	color: white;
 	background-color: var(--accent-color);
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+		0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-.contact {
-	color: #757575;
-	font-weight: 500;
-	font-size: 14px;
-	line-height: 1.14;
-	letter-spacing: 0.02em;
-}
+/* ---------------------------------------------- */
+
 .contact:hover,
 .contact:focus,
 .adr-color:hover,
 .adr-color:focus,
 .navmenu:hover {
 	color: var(--accent-color);
+}
+
+/* ---------------Stylizacja textu-------------------- */
+.titel-index {
+	color: white;
+	font-size: 44px;
+	font-weight: 900;
+	letter-spacing: 0.06rem;
+	text-align: center;
 }
 .features-title {
 	font-size: 14px;
@@ -139,7 +149,7 @@ body {
 	color: var(--second-text-color);
 }
 
-/* ------Team index------ */
+/* ------------Team index------------------ */
 .team-worker {
 	font-size: 16px;
 	font-weight: 500;
@@ -156,4 +166,4 @@ body {
 .team-bcg {
 	background-color: var(--team-bcg-color);
 }
-/* ------------ */
+/* ------------------------------------*/
