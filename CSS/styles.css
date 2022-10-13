@@ -73,27 +73,31 @@ body {
 
 /* ---------------Przyciski-------------------- */
 .butt-index {
+	font-family: "Roboto", sans-serif;
 	background-color: #2196f3;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.8;
 	color: white;
-	width: 117px;
-	height: 30px;
+	width: 200px;
+	height: 50px;
 	letter-spacing: 0.06rem;
 	border-radius: 4px;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	cursor: pointer;
+	text-align: center;
 }
 .butt-port {
+	font-family: "Roboto", sans-serif;
 	color: #212121;
 	background-color: #f5f4fa;
 	font-weight: 500;
-	font-size: 14px;
-	line-height: 1.14;
-	letter-spacing: 0.02em;
+	font-size: 16px;
+	line-height: 1.6;
+	letter-spacing: 0.03em;
 	cursor: pointer;
 	border-radius: 4px;
-
-	width: 93px;
-	height: 38px;
+	text-align: center;
 }
 .butt-port:hover,
 .butt-port:focus {
